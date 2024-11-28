@@ -48,7 +48,7 @@ class Prospect{
     * @param string $whatsapp Número do whatsapp do Prospect
     * @return Void
     */
-   public function addProspect($codigo, $nome, $email, $celular, $facebook, $whatsapp){
+   public function addProspect($codigo = null, $nome, $email, $celular, $facebook, $whatsapp){
       $this->codigo = $codigo;
       $this->nome = $nome;
       $this->email = $email;
